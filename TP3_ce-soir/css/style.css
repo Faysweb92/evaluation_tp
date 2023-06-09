@@ -1,0 +1,22 @@
+*
+.container{
+    width: 1200px;
+    margin:0 auto;
+
+}
+
+li{display: flex; float: left;}
+
+section{
+    display: flex;
+   
+}
+
+
+
+
+
+
+
+
+
