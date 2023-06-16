@@ -65,20 +65,21 @@ li {
 
 /************************Section***********************/
 
+.bplan div{display: flex; justify-content:space-around
+
+
+}
 .article img {
   width: 100%;
   height: 400px;
 }
 
-.section1 {
+section {
   display: flex;
   justify-content: space-between;
 }
 
-.section2 {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .section1 h1 {
   color: aqua;
