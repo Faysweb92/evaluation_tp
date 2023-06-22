@@ -1,0 +1,231 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin: auto;
+  width: 1440px;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+}
+
+header img {
+  height: 600px;
+  position: relative;
+}
+
+header img.chat {
+  display: none;
+}
+
+.sect1 > div {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.sect1 img {
+  width: 100%;
+}
+
+.sect1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.date {
+  background-color: blueviolet;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  font-size: 8px;
+  text-align: center;
+  padding-top: 5px;
+  color: aliceblue;
+  position: absolute;
+  top: 50px;
+  right: 150px;
+}
+
+header img.anif {
+  display: none;
+}
+
+.fotos {
+  background-color: blueviolet;
+  width: 90px;
+  height: 35px;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 10px;
+  color: aliceblue;
+  position: absolute;
+  bottom: 200px;left: 20px;
+}
+
+/* media et mettre taille dans container  max 1440 */
+
+@media (max-width: 1440px) {
+  body {
+    background-color: aqua;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  header img.gateau {
+    display: none;
+  }
+
+  header img.chat {
+    display: block;
+  }
+
+  header img.anif {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  header img.gateau {
+    display: none;
+  }
+  header img.chat {
+    display: none;
+  }
+
+  header img.anif {
+    display: block;
+  }
+}
+
+@media (max-width: 960px) {
+  body {
+    background-color: greenyellow;
+  }
+
+  header {
+    display: none;
+  }
+
+  .sect1 {
+    justify-content: space-around;
+  }
+  .sect1 div {
+    width: 48%;
+    margin: 10px 0px;
+  }
+}
+
+@media (max-width: 760px) {
+  body {
+    background-color: pink;
+  }
+
+  .sect1 div {
+    width: 400px;
+
+    height: 400px;
+    padding: 10px;
+  }
+}
