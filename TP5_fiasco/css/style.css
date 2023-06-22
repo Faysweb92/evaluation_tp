@@ -96,6 +96,7 @@ body {
 img{
     width: 100%;
     display: block;
+    
 }
 
 /**************************Container1******************************/
@@ -117,48 +118,123 @@ header ul {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
+  
 }
 
-header p,
+/* eader p,
 header h1,
-header h2,
-header li {
+header h2, */
+
+
+/* header li {
   padding: 50px;
+} */
+
+.gauche{
+padding: 0 500px 0 0; 
+
+
+
+
 }
 
-header li {
-  padding: 15px;
+
+/* .gauche:hover{
+  border: 2px solid rgb(228, 178, 16);
+  padding: 10px 0;
+
+
+} */
+
+
+header li  {
+  padding: 20px 10px 0 40px ;
+  display: flex;
+  
+  
+  
 }
 
-h1 {
+header a{
+  text-decoration: none;
+  color: rgb(179, 176, 176);
+  /* //opacity: 0,5; */
+  
+  
+  
+  
+
+}
+
+/* a:hover{
+
+  border: 2px solid rgb(228, 178, 16);
+  padding: 10px 0; }*/
+
+header h1 {
   text-align: center;
+  font-size:  75px;
+  padding: 96px 0 96px 0;
+ 
 }
 
-h2 {
+header h2 {
   text-align: center;
   color: rgb(228, 178, 16);
+  font-size:  50px;
+  font-family: 'Dancing Script', cursive;
 }
 
-h3 {
-  /* text-align: center; */
+header h3 {
+  text-align: center;
+  font-size:  25px ;
+  color: rgb(236, 233, 233);
+  opacity: 0.8;
+  
+
+  
 }
+
+.flex1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  
+}
+
+
+.bordure {
+  border: 2px solid rgb(228, 178, 16);
+  padding: 15px 0;
+  
+  
+  
+
+}
+
+nav{
+  padding: 20px 61px;
+}
+
+
 
 /**********************************container2**************************/
 .container2 {
   width: 1000px;
   margin: auto;
-  margin-top: 100px;
+ 
 }
 .section1 h4,
 .section1 h5,
 .section1 p {
-  margin: 50px 0 50px 0;
+  margin: 40px 0 40px 0;
 }
 
 .section2 h5,
 .section2 h4,
 .section2 p {
-  margin: 50px 0 50px 0;
+  margin: 40px 0 40px 0;
 }
 
 /**********************************MAIN*******************************/
@@ -181,9 +257,53 @@ h3 {
     width: 50%;
 }
 
+
+.burger_text h4{
+color: rgb(228, 178, 16);
+font-size: 25px;
+font-family: 'Dancing Script', cursive;
+
+}
+
+.burger_text a{
+  color: rgb(228, 178, 16);
+  text-decoration: none;
+  
+  }
+
+
+.chicken_text h4{
+  color: rgb(228, 178, 16);
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.chicken_text a{
+  color: rgb(228, 178, 16);
+  text-decoration: none;
+
+}
+
+
+h5 {font-size: 30px;
+
+}
+
 .image2 {
-  margin: 0 50px 0 50px;
+  margin: -15px 70px 70px 0px;
+  border : 2px solid rgb(228, 178, 16);
+  padding:30px 0 0 30px;
+  
+  
+  
+}
+
+.image3 {
+  margin: 0 50px 70px 70px;
   border: 2px solid rgb(228, 178, 16);
+  padding: 30px 30px 0 0 ;
+ 
 }
 
 .section3 {
@@ -198,10 +318,23 @@ h3 {
   text-align: center;
 }
 
+.section3_1 h6{
+  color: rgb(228, 178, 16);
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+
+}
+.section3_1 h7{
+  font-size: 25px;
+
+}
+
+
+
 .section3_1 h6,
 .section3_1 h7,
 .section3_1 p {
-  margin: 50px 0 50px 0;
+  margin: 30px 0 30px 0;
 }
 .nav2 {
   width: 50%;
@@ -210,7 +343,17 @@ h3 {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+ 
 }
+
+.nav2 a {
+text-decoration: none;
+color: rgb(179, 176, 176);
+
+
+}
+
+
 
 .section6 {
   background-image: url("/img/reservation.jpg");
@@ -223,13 +366,35 @@ h3 {
 
 .section4_1 {
   display: flex;
-  margin: 100px 0;
+  margin: 150px;
 }
+
+.section4_1 p, h2 {
+  margin: 0px 150px 0px 150px;
+}
+
+.section4_1 img{ width: 150px; height: 150px;
+
+}
+
 
 .section4_2 {
   display: flex;
-  margin: 100px 0;
+  margin: 150px;
 }
+.section4_2 P, h2 {
+  margin: 0px 150px 0px 150px;
+}
+
+.section4_2 img{ width: 150px; height: 150px;
+
+}
+
+.section4_2 p br{
+  background-color: blue;
+  color:rgb(228, 178, 16); 
+}
+
 
 .map {
   width: 100%;
